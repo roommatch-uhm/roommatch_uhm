@@ -16,8 +16,8 @@ interface Meeting {
 export default function MeetingsPage() {
   const [value, setValue] = useState<Value>(new Date());
   const [meetings, setMeetings] = useState<Meeting[]>([
-    { date: "2025-11-15", time: "10:00", title: "Coffee chat with Jamie @ Campus Center" },
-    { date: "2025-11-17", time: "14:00", title: "Meeting with Grace @ Hamilton Library" },
+    { date: "2025-11-21", time: "10:00", title: "Coffee chat with Jamie @ Campus Center" },
+    { date: "2025-11-26", time: "14:00", title: "Meeting with Grace @ Hamilton Library" },
   ]);
   const [showForm, setShowForm] = useState(false);
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
